@@ -1,0 +1,20 @@
+# Weather Notifier (GUI & CLI)
+
+O aplicație interactivă în Python care îți arată starea vremii pentru orice oraș din lume și îți trimite o notificare direct pe desktop. Programul folosește API-ul gratuit Open-Meteo pentru a prelua date în timp real.
+
+## 🎮 Cum funcționează
+* Introduci numele orașului dorit în consolă.
+* Aplicația caută automat coordonatele geografice și descarcă datele meteo actuale.
+* Primești instant detalii despre temperatură și viteza vântului în terminal, dar și printr-o notificare pop-up pe ecran.
+* Programul rulează continuu până când decizi să te oprești tastând cuvântul `nu`.
+
+## 🛠️ Cerințe
+* Python 3.x
+* Module externe (trebuie instalate): `requests`, `plyer`
+
+## 🚀 Cum îl rulezi local
+1. Descarcă fișierul `main.py`.
+2. Deschide terminalul/linia de comandă în folderul respectiv.
+3. Instalează bibliotecile necesare rulând:
+   ```bash
+   pip install requests plyer

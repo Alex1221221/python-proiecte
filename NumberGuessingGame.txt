@@ -1,0 +1,19 @@
+# Number Guessing Game (GUI)
+
+Un joc interactiv și simplu de ghicit numere, realizat în Python folosind interfața grafică **Tkinter**.
+
+## 🎮 Cum se joacă
+* Calculatorul alege un număr aleatoriu între **1 și 100**.
+* Ai la dispoziție **5 șanse** să ghicești numărul corect.
+* După fiecare încercare, jocul îți va spune dacă numărul introdus de tine este prea mare sau prea mic.
+
+## 🛠️ Cerințe
+* Python 3.x
+* Biblioteca Tkinter (este inclusă nativ în Python)
+
+## 🚀 Cum îl rulezi local
+1. Descarcă fișierul `main.py`.
+2. Deschide terminalul/linia de comandă în folderul respectiv.
+3. Rulează comanda:
+   ```bash
+   python main.py
